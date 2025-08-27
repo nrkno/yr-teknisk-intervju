@@ -1,0 +1,87 @@
+import type { ILocation } from './types/location';
+
+export const locations: ILocation[] = [
+  {
+    id: '1',
+    name: 'Bodø',
+    category: 'By',
+    elevation: 3,
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/01d.svg',
+      description: 'Klarvær',
+    },
+    temperature: 20,
+    precipitation: 0,
+    wind: 3,
+    windGust: 6,
+  },
+  {
+    id: '2',
+    name: 'Oslo',
+    category: 'By',
+    elevation: 10,
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/05d.svg',
+      description: 'Regnbyger',
+    },
+    temperature: 16.4,
+    precipitation: 10.5,
+    wind: 3.3,
+    windGust: 6,
+  },
+  {
+    id: '3',
+    name: 'Blindern',
+    category: 'Byområde',
+    elevation: 91,
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/05d.svg',
+      description: 'Regnbyger',
+    },
+    temperature: 15.1,
+    precipitation: 12.5,
+    wind: 3.4,
+    windGust: 6.5,
+  },
+  {
+    id: '4',
+    name: 'Kongsvoll',
+    category: 'Befolket sted',
+    elevation: 1063,
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/04.svg',
+      description: 'Skyet',
+    },
+    temperature: 12.3,
+    precipitation: 0,
+    wind: 4.9,
+    windGust: 9.4,
+  },
+  {
+    id: '5',
+    name: 'Geilo',
+    category: 'Tettsted',
+    elevation: 798,
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/03d.svg',
+      description: 'Delvis skyet',
+    },
+    temperature: 12.1,
+    precipitation: 0,
+    wind: 2,
+    windGust: 5.2,
+  },
+  {
+    id: '6',
+    name: 'Tokyo',
+    category: 'Hovedstad',
+    symbol: {
+      src: 'https://nrkno.github.io/yr-weather-symbols/symbols/lightmode/01d.svg',
+      description: 'Klarvær',
+    },
+    elevation: 38,
+    temperature: 28.4,
+    precipitation: 0,
+    wind: 3.4,
+  },
+];

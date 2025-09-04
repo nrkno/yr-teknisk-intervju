@@ -1,14 +1,12 @@
 export interface ILocation {
   id: string;
-  name: string;
-  category: string;
-  elevation: number;
-  symbol: {
-    src: string;
-    description: string;
-  };
+  locationName: string;
   temperature: number;
   precipitation: number;
   wind: number;
-  windGust?: number;
+  units: {
+    temperature: '°';
+    precipitation: 'mm';
+    wind: 'm/s';
+  };
 }
